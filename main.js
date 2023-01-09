@@ -24,7 +24,7 @@ function Delete(x) {
             <p>${item.Salary}</p>
             <p>${item.City}</p>
 
-            <p><a>Edit</a>  <a onclick="Delete(${item.FullName})" >Delete</a></p>
+            <p><a>Edit</a>  <a onclick="Delete(${item.Id})" >Delete</a></p>
         </div>
         `
     }) 
